@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'app'
+gem 'ember-rails'
 gem 'jquery-rails'
 gem 'rails', '3.2.11'
 gem 'mysql2'
