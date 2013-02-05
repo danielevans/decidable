@@ -6,6 +6,8 @@ gem 'jquery-rails'
 gem 'rails', '3.2.11'
 gem 'mysql2'
 
+gem 'devise'
+
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.2'
