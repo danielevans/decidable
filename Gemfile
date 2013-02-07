@@ -1,12 +1,14 @@
 source 'https://rubygems.org'
 
 gem 'app'
+gem 'devise'
 gem 'ember-rails'
+gem 'inherited_resources'
 gem 'jquery-rails'
 gem 'rails', '3.2.11'
 gem 'mysql2'
 
-gem 'devise'
+
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'

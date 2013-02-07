@@ -17,6 +17,7 @@
 //= require ember-data
 //= require_tree ./lib
 //= require decidable
+//= require routes
 //= require_tree ./models
 //= require_tree ./controllers
 //= require_tree ./views
