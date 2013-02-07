@@ -5,4 +5,9 @@
       {{establishment.name}}
     </li>
   {{/each }}
+  <li> {{#linkTo "establishments.new"}}<i class="icon-plus-sign"></i> New Establishment{{/linkTo}} </li>
 </ul>
+
+<div>
+  {{outlet}}
+</div>

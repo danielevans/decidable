@@ -1,6 +1,7 @@
 
 Decidable.Router.map(function() {
   this.resource("establishments", function () {
+    this.route("new");
   });
 });
 
@@ -10,7 +11,7 @@ Decidable.IndexRoute = Ember.Route.extend({
   }
 });
 
-Decidable.EstablishmentsRoute = Ember.Route.extend({
+Decidable.EstablishmentsIndexRoute = Ember.Route.extend({
   setupController: function (controller, model) {
     controller.set("content", model);
   },
@@ -18,3 +19,13 @@ Decidable.EstablishmentsRoute = Ember.Route.extend({
     return Decidable.Establishment.find();
   }
 });
+
+Decidable.EstablishmentsNewRoute = Ember.Route.extend({
+  setupController: function (controller, model) {
+    controller.set("content", model);
+  },
+  model: function() {
+    return Decidable.Establishment.createRecord();
+  }
+});
+
